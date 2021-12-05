@@ -1,0 +1,151 @@
+
+@keyframes appear{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.inputWrap
+{
+    display: flex;
+    .input
+    {
+        font-size: 1.3rem;
+        padding:6px 10px;
+        outline: none;
+        border-radius: 3px;
+        box-sizing: border-box;
+        border: unset;
+        width:100%;
+    }
+    select
+    {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 3px;
+        font-size: 1.1rem;
+        min-width: 140px;
+        border: none;
+        height: 100%;
+        padding-left:10px;
+        outline: unset;
+        color:rgb(52, 6, 136);
+        &:hover{
+            cursor: pointer;
+        }
+        background-size: 10px;
+        background-image: url('../static/svg/caret-down-solid.svg');
+        background-repeat: no-repeat;
+        background-position-x:90% ;
+        background-position-y: calc(50% - 1px);
+        position: relative;
+        option
+        {
+            padding:10px 0;
+            margin: 10px;
+        }
+    }
+}
+.inputParent
+{
+    flex:1;
+    box-sizing: border-box;
+    margin-right: 20px;
+    position: relative;
+    svg{
+        position: absolute;
+        width: 20px;
+        top:50%;
+        transform: translateY(-50%);
+        right:6px;
+        path{
+            fill:rgb(52, 6, 136);
+        }
+        &:hover{
+            cursor: pointer;
+            opacity: .7;
+        }
+    }
+}
+.selectWrap
+{
+    position: relative;
+    overflow: hidden;
+    svg
+    {
+        position: absolute;
+        width: 16px;
+        right:0;
+        top:50%;
+        transform: translateY(-50%);
+        padding:10px;
+        background-color: rgb(81, 16, 201);
+        color:white;
+        z-index: 0;
+    }
+}
+
+.list
+{
+    padding-left: 0;
+    margin: 50px auto;
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.2rem;
+    align-items: center;
+    width: fit-content;
+    li
+    {
+        animation: appear 1.5s;
+        padding:6px 6px;
+        padding-right:100px;
+        background-color: white;
+        margin: 4px 0;
+        border-radius: 3px;
+        width:max-content;
+        box-sizing: border-box;
+        min-width: 160px;
+        max-width: 100%;
+        width:100%;
+        position: relative;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space: nowrap;
+
+        >*{
+            width: 12px;
+            padding: 11px;
+            position:absolute;
+            color:white;
+            &:hover{
+                opacity: .7;
+                cursor: pointer;
+            }
+            &:last-child{
+                right:0;
+                top:0;
+                bottom:0;
+                background: rgb(255, 123, 0);
+            }
+            &:first-child{
+                top:0;
+                bottom:0;
+                background-color: rgb(0, 196, 171);
+                padding: 12px 11px;
+                right:34px;
+            }
+        }
+        svg{
+            margin-bottom: 4px;
+        }
+    }
+}
+.completed
+{
+    color:#888;
+    text-decoration: line-through;
+}
