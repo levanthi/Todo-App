@@ -36,7 +36,7 @@ function Display(props,ref)
                             Completed
                         </option>
                         <option value='uncompleted'>
-                            Uncompled
+                            Uncomplted
                         </option>
                     </select>
                 </div>
