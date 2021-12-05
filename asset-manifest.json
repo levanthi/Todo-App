@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Todo-App/static/css/main.93235c55.chunk.css",
+    "main.js": "/Todo-App/static/js/main.63b3df73.chunk.js",
+    "main.js.map": "/Todo-App/static/js/main.63b3df73.chunk.js.map",
+    "runtime-main.js": "/Todo-App/static/js/runtime-main.089968b2.js",
+    "runtime-main.js.map": "/Todo-App/static/js/runtime-main.089968b2.js.map",
+    "static/js/2.7cd76398.chunk.js": "/Todo-App/static/js/2.7cd76398.chunk.js",
+    "static/js/2.7cd76398.chunk.js.map": "/Todo-App/static/js/2.7cd76398.chunk.js.map",
+    "static/js/3.a408bf69.chunk.js": "/Todo-App/static/js/3.a408bf69.chunk.js",
+    "static/js/3.a408bf69.chunk.js.map": "/Todo-App/static/js/3.a408bf69.chunk.js.map",
+    "index.html": "/Todo-App/index.html",
+    "static/css/main.93235c55.chunk.css.map": "/Todo-App/static/css/main.93235c55.chunk.css.map",
+    "static/js/2.7cd76398.chunk.js.LICENSE.txt": "/Todo-App/static/js/2.7cd76398.chunk.js.LICENSE.txt",
+    "static/media/main.module.scss": "/Todo-App/static/media/caret-down-solid.f5845b07.svg",
+    "static/media/check-solid.5dcf9568.svg": "/Todo-App/static/media/check-solid.5dcf9568.svg",
+    "static/media/plus-square-solid.23b84f4b.svg": "/Todo-App/static/media/plus-square-solid.23b84f4b.svg",
+    "static/media/trash-alt-regular.96ae42b3.svg": "/Todo-App/static/media/trash-alt-regular.96ae42b3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.089968b2.js",
+    "static/js/2.7cd76398.chunk.js",
+    "static/css/main.93235c55.chunk.css",
+    "static/js/main.63b3df73.chunk.js"
+  ]
+}
