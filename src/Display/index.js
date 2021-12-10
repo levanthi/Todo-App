@@ -20,6 +20,7 @@ function Display(props,ref)
                 <div className={clsx(styles.inputParent)}>
                     <span onClick={props.handleAdd}><Plus/></span>
                     <input 
+                        placeholder="Enter works..."
                         ref={inputRef}
                         value={props.input} 
                         onChange={(e)=>props.setInput(e.target.value)} 

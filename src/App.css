@@ -14,4 +14,5 @@ body{
   padding:20px;
   font-family: sans-serif;
   user-select:none;
+  transition:all .5s;
 }
